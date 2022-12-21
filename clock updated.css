@@ -1,0 +1,78 @@
+
+    
+    #chng{
+      background-color: red;
+      padding: 20px;
+    }
+    #chng:hover{
+      opacity: 0;
+      transition: all 5s;
+    }
+    #fulldate{
+      display: flex;
+      color: orange;
+    }
+   .dateEl{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+   }
+    #author{
+      margin-left: 100px;
+      visibility: hidden;
+      font-size: 30px;
+      font-family:'Times New Roman', Times, serif;
+      color:white;
+      position: absolute;
+      left: 270px;
+    }
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+
+    }
+    #clock{
+      display: block;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid gray;
+      background:rgb(0, 0, 400);
+      color: white;
+      width: 800px;
+      height: 250px;
+      position: absolute;
+      top:30vh;
+      left: 20%;
+      transition: all 0.7s;
+
+    }
+    #time{
+      display: flex;
+    }
+    .case{
+      margin-top: 10px;
+      margin-left: 20px;
+      border-radius: 20%;
+      
+      color: orange;
+      font-size: 150px;
+      width: 200px;
+      background-color:#fff;
+
+    }
+    .case1{
+      margin: 10px;
+      
+      background-color:orange;
+      color:rgb(255, 255, 255);
+      font-size:100px;
+      height: 100px;
+    }
+    #date{
+      margin-top: -40px;
+      color:white;
+      margin-left: 20px;
+      font-size: 30px;
+    }
+ 
