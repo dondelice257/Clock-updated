@@ -1,7 +1,7 @@
 
     let clock = document.getElementById('clock')
     let chng = document.getElementById('chng');
-    let hour = document.getElementById('hour5');
+    let hour = document.getElementById('hour');
     let minute = document.getElementById('minute');
     let second = document.getElementById('second');
     let h= new Date().getHours();
